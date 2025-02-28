@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+
+                <!--Logo-->
+                <div class="col-lg-1 col-md-1 col-4 d-flex align-items-center justify-content-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="./Img/logo.png" alt="Logo" width="40" height="34">
+                    </a>
+                </div>
+
+                <!--Botón colapsable-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Contenido colapsable -->
+                <div class="collapse navbar-collapse col-lg-11 col-md-11 col-12 justify-content-around" id="navbarContent">
+                    <div class="row w-100 d-flex justify-content-around">
+
+                        <!--Menú-->
+                        <ul class="navbar-nav col-lg-2 col-md-12 text-lg-start text-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Pages/tips.html">Tips</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./Pages/nosotros.html">Sobre Nosotros</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="./Pages/contacto.html">Contactanos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!--Formulario de búsqueda-->
+                        <form class="d-flex col-lg-8 col-md-12 justify-content-lg-end justify-content-center" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                        </form>
+
+                        <!--My Account-->
+                        <div class="col-lg-2 col-md-2 col-4 d-flex justify-content-center align-items-center">
+                            <a class="icon-link" href="./Pages/sesion.html">
+                                <i class="bi bi-person-circle"></i>
+                                <span>My Account</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        
+        <!-- Receta del Día -->
+        <section class="bg-dark-subtle">
+        <div class="container-fluid">
+            <div class="row">
+                
+                <!-- Imagen -->
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="./Img/berlinesas.jpg" alt="Berlinesas con crema" class="img-seccion">
+                </div>
+                
+                <!-- Contenido -->
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <h1 class="texto-seccion">Receta del Día</h1>
+                        <h3 class="texto-seccion">Berlin con crema pastelera de chocolate</h3>
+
+                        <p class="texto-seccion">Deliciosos berlines rellenos de una suave y rica crema pastelera de chocolate, perfectos para un postre o merienda indulgente. ¡Una combinación irresistible de esponjosidad y sabor!</p>
+
+                        <div class="texto-seccion">
+                            <button class="btn btn-dark">Ver Más</button>
+                            <button class="btn btn-outline-dark">Guardar</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Entradas -->
+        <section class="bg-light">
+        <div class="container-fluid h-100">
+
+            <div class="row justify-content-center">
+                <!-- Titulo -->
+                <div class="col-12 text-center m-3">
+                    <h2>Entradas</h2>
+                </div>
+                
+                <!-- Tarjetas -->
+                <div class="row col-12 d-flex justify-content-around">
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="./Img/sopatomate.jpg" class="card-img-top tarjeta-img" alt="Sopa de Tomate y Zanahorias">
+                            <div class="card-body cuerpo-tarjeta">
+                            <h5 class="card-title">Sopa de Tomates y Zanahorias al Azafrán</h5>
+                            <p class="card-text">Una sopa cremosa y reconfortante con el dulzor natural de la zanahoria, la acidez del tomate y un toque de azafrán que le da un aroma y sabor únicos.</p>
+                            <button class="btn btn-outline-dark">Ver Más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="./Img/champisrellenos.jpg" class="card-img-top tarjeta-img" alt="Champiñones rellenos">
+                            <div class="card-body cuerpo-tarjeta">
+                            <h5 class="card-title">Champiñones Rellenos</h5>
+                            <p class="card-text">Champiñones horneados con un relleno sabroso de queso, ajo y hierbas, perfectos como un bocado elegante y delicioso.</p>
+                            <button class="btn btn-outline-dark">Ver Más</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="./Img/coliflorbbq.jpg" class="card-img-top tarjeta-img" alt="Coliflor Asada con Barbeque">
+                            <div class="card-body cuerpo-tarjeta">
+                            <h5 class="card-title">Coliflor al horno con salsa barbecue</h5>
+                            <p class="card-text">Trozos de coliflor dorados al horno con un glaseado de salsa barbecue que equilibra lo dulce y lo ahumado en cada bocado.</p>
+                            <button class="btn btn-outline-dark">Ver Más</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                        <div class="card h-100" style="width: 18rem;">
+                            <img src="./Img/brochetacamaron.jpg" class="card-img-top tarjeta-img" alt="Brochetas de camaron">
+                            <div class="card-body cuerpo-tarjeta">
+                            <h5 class="card-title">Brochetas de Camarón con salsa ají</h5>
+                            <p class="card-text">Jugosos camarones a la parrilla servidos en brochetas con una vibrante salsa de ají que aporta el equilibrio perfecto entre picante y frescura.</p>
+                            <button class="btn btn-outline-dark">Ver Más</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Botón -->
+                <div class="col-12 text-center m-3">
+                    <button class="btn btn-dark">Ver Más</button>
+                </div>
+
+            </div>
+
+        </div>
+        </section>
+
+        <!-- Plato Principal -->
+        <section class="bg-light">
+            <div class="container-fluid h-100">
+
+                <div class="row justify-content-center">
+                    <!-- Titulo -->
+                    <div class="col-12 text-center m-3">
+                        <h2>Plato Principal</h2>
+                    </div>
+                    
+                    <!-- Tarjetas -->
+                    <div class="row col-12 d-flex justify-content-around">
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/tacos.jpg" class="card-img-top tarjeta-img" alt="Tacos estilo ensalada cesar">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Tacos estilo ensalada cesar</h5>
+                                  <p class="card-text">Una fusión irresistible de la clásica ensalada César y los tacos. Crujiente lechuga, pollo dorado, queso parmesano y un toque de aderezo César envueltos en una tortilla suave.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>    
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/lasañapesto.jpg" class="card-img-top tarjeta-img" alt="Lasaña al pesto">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Lasaña al pesto con pollo y champiñones</h5>
+                                  <p class="card-text">Capas de pasta intercaladas con cremoso pesto, trozos de pollo jugoso y champiñones salteados, gratinadas con queso derretido para un toque irresistible.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>    
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/chowfan.jpg" class="card-img-top tarjeta-img" alt="Arroz con salchichas">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Arroz con salchichas al estilo chowfan</h5>
+                                  <p class="card-text">Un plato inspirado en la cocina chifa con arroz salteado al wok, salchichas doradas, huevo revuelto y un toque de salsa de soja para un sabor ahumado y delicioso.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/carneyvegetales.jpg" class="card-img-top tarjeta-img" alt="Carne al horno con verduras">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Carne al horno con verduras</h5>
+                                  <p class="card-text">Jugosos trozos de carne horneados lentamente con una mezcla de verduras frescas, sazonados con hierbas aromáticas para un plato nutritivo y reconfortante.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>    
+                        </div>
+
+                    </div>
+                    
+                    <!-- Botón -->
+                    <div class="col-12 text-center m-3">
+                        <button class="btn btn-dark">Ver Más</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Postres -->
+        <section class="bg-light">
+            <div class="container-fluid h-100">
+
+                <div class="row justify-content-center">
+                    <!-- Titulo -->
+                    <div class="col-12 text-center m-3">
+                        <h2>Postres</h2>
+                    </div>
+                    
+                    <!-- Tarjetas -->
+                    <div class="row col-12 d-flex justify-content-around">
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/keylimepie.png" class="card-img-top tarjeta-img" alt="Key Lime Pie">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Key Lime Pie</h5>
+                                  <p class="card-text">Un postre clásico con una base crujiente de galletas, relleno cremoso y ácido de lima, coronado con merengue o crema batida.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>    
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/mousselimon.jpg" class="card-img-top tarjeta-img" alt="Mousse Limon">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Mousse de Limón</h5>
+                                  <p class="card-text">Suave y aireado, este mousse combina la frescura del limón con una textura sedosa que se derrite en la boca.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>       
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/merenguitos.jpg" class="card-img-top tarjeta-img" alt="Copon de frutillas y merenguitos">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Copon de frutillas y merenguitos</h5>
+                                  <p class="card-text">Capas de frutillas frescas, merengue crocante y crema batida para un postre ligero, dulce y lleno de contrastes.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>    
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/bolitasbrownie.jpg" class="card-img-top tarjeta-img" alt="Bocadito brownie">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Brownie tipo ferrero bañado en crema de pistacho</h5>
+                                  <p class="card-text">Un delicioso brownie con el toque crujiente de Ferrero Rocher, cubierto con una suave y deliciosa crema de pistacho que lo convierte en el postre perfecto para los amantes de los sabores intensos y sorprendentes.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>    
+                        </div>
+
+                    </div>
+                    
+                    <!-- Botón -->
+                    <div class="col-12 text-center m-3">
+                        <button class="btn btn-dark">Ver Más</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Tragos -->
+        <section class="bg-light">
+            <div class="container-fluid h-100">
+
+                <div class="row justify-content-center">
+                    <!-- Titulo -->
+                    <div class="col-12 text-center m-3">
+                        <h2>Tragos</h2>
+                    </div>
+                    
+                    <!-- Tarjetas -->
+                    <div class="row col-12 d-flex justify-content-around">
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/irishcoffee.jpg" class="card-img-top tarjeta-img" alt="Irish Coffee">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Cafe Irlandés o Irish Coffee</h5>
+                                  <p class="card-text">Una combinación perfecta de café caliente, whisky irlandés, azúcar y una capa de crema batida para un toque suave y cremoso.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>        
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/expressomartini.jpg" class="card-img-top tarjeta-img" alt="Expresso Martini">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Expreso Martini</h5>
+                                  <p class="card-text">Un cóctel elegante y energizante que mezcla espresso recién hecho, vodka, licor de café y un toque de crema para una textura aterciopelada.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>       
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/mojito.jpg" class="card-img-top tarjeta-img" alt="Mojito Espumante">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Mojito Espumante</h5>
+                                  <p class="card-text">Una versión sofisticada del clásico mojito con ron, lima, menta y un toque de espumante que le da frescura y burbujas.</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>       
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="./Img/tintoverano.png" class="card-img-top tarjeta-img" alt="Tinto de Verano">
+                                <div class="card-body cuerpo-tarjeta">
+                                  <h5 class="card-title">Tinto de Verano</h5>
+                                  <p class="card-text">Refrescante y fácil de preparar, este cóctel combina vino tinto con gaseosa de limón y mucho hielo para disfrutar en días calurosos</p>
+                                  <button class="btn btn-outline-dark">Ver Más</button>
+                                </div>
+                              </div>        
+                        </div>
+
+                    </div>
+                    
+                    <!-- Botón -->
+                    <div class="col-12 text-center m-3">
+                        <button class="btn btn-dark">Ver Más</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid bg-body-tertiary">
+            <div class="row">
+
+                <div class="row justify-content-between m-0">
+                    <!-- Logo -->
+                     <div class="col-12 col-md-1 pie">
+                        <a class="navbar-brand" href="#">
+                            <img src="./Img/logo.png" alt="Logo" width="40" height="34">
+                        </a>    
+                     </div>
+
+                    <!-- Menu -->
+                     <div class="col-12 col-md-6 col-lg-4 pie">
+                        <ul class="col-6 col-md-12 nav justify-content-end">
+                            <li class="nav-item col-6 col-md-2 text-center"><a href="./index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                            <li class="nav-item col-6 col-md-2 text-center"><a href="./Pages/tips.html" class="nav-link px-2 text-body-secondary">Tips</a></li>
+                            <li class="nav-item col-6 col-md-4 text-center"><a href="./Pages/nosotros.html" class="nav-link px-2 text-body-secondary">Sobre Nosotros</a></li>
+                            <li class="nav-item col-6 col-md-4 text-center"><a href="./Pages/contacto.html" class="nav-link px-2 text-body-secondary">Contactanos</a></li>
+                        </ul>    
+                     </div>
+                </div>
+
+                <hr>
+
+                <div class="row justify-content-between m-0">
+                    
+                    <!-- Derechos -->
+                     <div class="col-12 col-md-6 pie">
+                        <p class="mb-0 text-body-secondary">© 2025 Cocinando Ando</p>   
+                     </div>
+
+                    <!-- Redes -->
+                     <div class="col-12 col-md-2 col-lg-1 pie">
+                        <ul class="col-4 col-md-12 d-flex justify-content-evenly list-unstyled">
+                            <li><i class="bi bi-youtube"></i></li>
+                            <li><i class="bi bi-twitter-x"></i></li>
+                            <li><i class="bi bi-instagram"></i></li>
+                        </ul>      
+                     </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

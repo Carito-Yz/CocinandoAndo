@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+
+                <!--Logo-->
+                <div class="col-lg-1 col-md-1 col-4 d-flex align-items-center justify-content-center">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../Img/logo.png" alt="Logo" width="40" height="34">
+                    </a>
+                </div>
+
+                <!--Botón colapsable-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Contenido colapsable -->
+                <div class="collapse navbar-collapse col-lg-11 col-md-11 col-12 justify-content-around" id="navbarContent">
+                    <div class="row w-100 d-flex justify-content-around">
+
+                        <!--Menú-->
+                        <ul class="navbar-nav col-lg-2 col-md-12 text-lg-start text-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./tips.html">Tips</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="./contacto.html">Contactanos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!--Formulario de búsqueda-->
+                        <form class="d-flex col-lg-8 col-md-12 justify-content-lg-end justify-content-center" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                        </form>
+
+                        <!--My Account-->
+                        <div class="col-lg-2 col-md-2 col-4 d-flex justify-content-center align-items-center">
+                            <a class="icon-link" href="./sesion.html">
+                                <i class="bi bi-person-circle"></i>
+                                <span>My Account</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Equipo -->
+        <section class="bg-light">
+            <div class="container-fluid h-100">
+    
+                <div class="row justify-content-center">
+                    <!-- Titulo -->
+                    <div class="col-12 text-center m-3">
+                        <h1>Nuestro Equipo</h1>
+                    </div>
+                    
+                    <!-- Tarjetas -->
+                    <div class="row col-12 d-flex justify-content-around">
+    
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="../Img/juanperez.jpeg" class="card-img-top" alt="Juan Perez">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Juan Pérez</h5>
+                                    <p class="card-text">Chef</p>
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <ul class="col-8 d-flex justify-content-evenly list-unstyled">
+                                            <li><i class="bi bi-linkedin"></i></li>
+                                            <li><i class="bi bi-twitter-x"></i></li>
+                                            <li><i class="bi bi-instagram"></i></li>
+                                            <li><i class="bi bi-facebook"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <button class="btn btn-outline-dark">Contactar</button>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="../Img/anarodriguez.jpg" class="card-img-top" alt="Ana rodriguez">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Ana Rodriguez</h5>
+                                    <p class="card-text">Sous Chef</p>
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <ul class="col-8 d-flex justify-content-evenly list-unstyled">
+                                            <li><i class="bi bi-linkedin"></i></li>
+                                            <li><i class="bi bi-twitter-x"></i></li>
+                                            <li><i class="bi bi-instagram"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <button class="btn btn-outline-dark">Contactar</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="../Img/carlosgomez.jpg" class="card-img-top" alt="Carlos Gomez">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Carlos Gómez</h5>
+                                    <p class="card-text">Entremetier</p>
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <ul class="col-8 d-flex justify-content-evenly list-unstyled">
+                                            <li><i class="bi bi-linkedin"></i></li>
+                                            <li><i class="bi bi-instagram"></i></li>
+                                            <li><i class="bi bi-facebook"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <button class="btn btn-outline-dark">Contactar</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <img src="../Img/marianalopez.jpg" class="card-img-top" alt="Mariana López">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Mariana López</h5>
+                                    <p class="card-text">Pâtissier</p>
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <ul class="col-8 d-flex justify-content-evenly list-unstyled">
+                                            <li><i class="bi bi-linkedin"></i></li>
+                                            <li><i class="bi bi-twitter-x"></i></li>
+                                            <li><i class="bi bi-instagram"></i></li>
+                                            <li><i class="bi bi-facebook"></i></li>
+                                        </ul> 
+                                    </div>
+                                    <button class="btn btn-outline-dark">Contactar</button>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    
+                    <!-- Botón -->
+                    <div class="col-12 text-center m-3">
+                        <button class="btn btn-dark">Ver Más</button>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </section>
+
+        <!-- Datos -->
+        <section class="bg-light">
+            <div class="container-fluid h-100">
+    
+                <div class="row justify-content-center">
+                    <!-- Titulo -->
+                    <div class="col-12 text-center m-3">
+                        <h2>Números que Importan</h2>
+                    </div>
+                    
+                    <!-- Tarjetas -->
+                    <div class="row col-12 d-flex justify-content-around">
+
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-3">11K+</h5>
+                                    <h6 class="card-subtitle mb-3">Usuarios</h6>
+                                    <p class="card-text">Nuestra comunidad cuenta con más de 11,000 usuarios que disfrutan de nuestras recetas y experiencias culinarias.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-3">600+</h5>
+                                    <h6 class="card-subtitle mb-3">Recetas Disponibles</h6>
+                                    <p class="card-text">Descubre una amplia variedad de más de 600 recetas cuidadosamente seleccionadas para todos los gustos.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-3">20+</h5>
+                                    <h6 class="card-subtitle mb-3">Patrocinadores</h6>
+                                    <p class="card-text">Colaboramos con más de 20 marcas y patrocinadores que apoyan nuestra misión de compartir la mejor gastronomía.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 18rem;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title mb-3">1.8K+</h5>
+                                    <h6 class="card-subtitle mb-3">Vistas por Día</h6>
+                                    <p class="card-text">Nuestra plataforma recibe más de 1,800 visitas diarias de apasionados de la cocina en busca de inspiración.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    
+                    <!-- Botón -->
+                    <div class="col-12 text-center m-3">
+                        <button class="btn btn-dark">Ver Más</button>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section class="bg-light">
+            <div class="container-fluid h-100">
+    
+                <div class="row justify-content-center">
+                    <!-- Titulo -->
+                    <div class="col-12 text-center m-3">
+                        <h2>Testimonios</h2>
+                    </div>
+                    
+                    <!-- Tarjetas -->
+                    <div class="row col-12 d-flex justify-content-around">
+
+                        <div class="col-12 col-sm-6 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 30rem;">
+                                <div class="card-body text-center">
+                                    <img src="../Img/serenisimalogo.png" width="30%" height="25%" class="img-testimonios">
+                                    <h5 class="card-title mb-3">La Serenísima</h5>
+                                    <p class="card-text">"Creemos en la importancia de acompañar a nuestros consumidores con productos de calidad que mejoren su experiencia culinaria. Colaborar con esta plataforma nos permite estar más cerca de quienes disfrutan de la buena comida y las experiencias únicas. Estamos orgullosos de ser parte de este proyecto que promueve la gastronomía y el disfrute en cada plato."</p>
+                                    <cite class="fw-bold">Carlos Agote</cite>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-sm-6 d-flex justify-content-around align-items-center tarjeta">
+                            <div class="card h-100" style="width: 30rem;">
+                                <div class="card-body text-center">
+                                    <img src="../Img/rappilogo.JPG" width="30%" height="25%" class="img-testimonios">
+                                    <h5 class="card-title mb-3">Rappi</h5>
+                                    <p class="card-text">"Estamos emocionados de ser parte de esta plataforma única. A través de esta colaboración, podemos conectar con una comunidad que valora la buena comida y las experiencias personalizadas. Estamos seguros de que juntos lograremos ofrecer grandes momentos a nuestros usuarios. ¡Un verdadero placer ser socios de este proyecto!"</p>
+                                    <cite class="fw-bold">Simón Borrero</cite>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Botón -->
+                    <div class="col-12 text-center m-3">
+                        <button class="btn btn-dark">Ver Más</button>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid bg-body-tertiary">
+            <div class="row">
+
+                <div class="row justify-content-between m-0">
+                    <!-- Logo -->
+                        <div class="col-12 col-md-1 pie">
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../Img/logo.png" alt="Logo" width="40" height="34">
+                        </a>    
+                        </div>
+
+                    <!-- Menu -->
+                        <div class="col-12 col-md-6 col-lg-4 pie">
+                        <ul class="col-6 col-md-12 nav justify-content-end">
+                            <li class="nav-item col-6 col-md-2 text-center"><a href="../index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                            <li class="nav-item col-6 col-md-2 text-center"><a href="./tips.html" class="nav-link px-2 text-body-secondary">Tips</a></li>
+                            <li class="nav-item col-6 col-md-4 text-center"><a href="./nosotros.html" class="nav-link px-2 text-body-secondary">Sobre Nosotros</a></li>
+                            <li class="nav-item col-6 col-md-4 text-center"><a href="./contacto.html" class="nav-link px-2 text-body-secondary">Contactanos</a></li>
+                        </ul>    
+                        </div>
+                </div>
+
+                <hr>
+
+                <div class="row justify-content-between m-0">
+                    
+                    <!-- Derechos -->
+                        <div class="col-12 col-md-6 pie">
+                        <p class="mb-0 text-body-secondary">© 2025 Cocinando Ando</p>   
+                        </div>
+
+                    <!-- Redes -->
+                        <div class="col-12 col-md-2 col-lg-1 pie">
+                        <ul class="col-4 col-md-12 d-flex justify-content-evenly list-unstyled">
+                            <li><i class="bi bi-youtube"></i></li>
+                            <li><i class="bi bi-twitter-x"></i></li>
+                            <li><i class="bi bi-instagram"></i></li>
+                        </ul>      
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>

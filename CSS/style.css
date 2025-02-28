@@ -1,0 +1,88 @@
+/* ----------------------------------- HEADER ------------------------------------------------*/
+header i, span{
+    color: black;
+}
+
+header a{
+    text-decoration: none;
+}
+
+/* ----------------------------------- MAIN ------------------------------------------------*/
+
+main{
+    padding-top: 65px;
+}
+
+main section{
+    height: fit-content;
+}
+
+.img-seccion{
+    width: 70%; 
+    height: auto;
+}
+
+.tarjeta-img{
+    height: 35%;
+}
+
+.cuerpo-tarjeta{
+    text-align: center;
+}
+
+.cuerpo-tarjeta h5{
+    height: 20%;
+}
+
+.cuerpo-tarjeta p{
+    height: 55%;
+}
+
+.cuerpo-tarjeta button{
+    height: 15%;
+}
+
+.seccion-contenido{
+    text-align: end;
+} 
+
+/* ----------------------------------- RESPONSIVE ------------------------------------------------*/
+
+/* SMALL */
+@media (max-width: 770px) {
+
+    /* ----------------------------------- MAIN ------------------------------------------------*/
+    .texto-seccion{
+        text-align: center;
+    }
+
+    .tarjeta{
+        margin-bottom: 10px;
+    }
+
+    /* ----------------------------------- FOOTER ------------------------------------------------*/
+    .pie{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .pie img{
+        width: 60px;
+        height: 54px;
+    }
+  }
+
+@media (min-width: 770px) and (max-width: 995px) {
+
+    /* ----------------------------------- MAIN ------------------------------------------------*/
+    .tarjeta{
+        margin-bottom: 10px;
+    }
+  }
+
+@media (min-width:576px) and (max-width: 850px){
+    .img-testimonios{
+        width: 40%;
+    }
+}
