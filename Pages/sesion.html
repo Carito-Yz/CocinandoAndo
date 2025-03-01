@@ -73,17 +73,53 @@
     <!-- Main -->
      <main>
         <section>
-            <div class="container-fluid">
-                <div class="row">
+            <div class="container-fluid bg-body-tertiary">
+                <div class="row d-flex justify-content-center align-items-center">
 
-                <div>
-                    <h1>Log In</h1>
-                </div>
+                    <div class="col-6 bg-white mb-3 mt-3">
 
-                <div>
-                    
-                </div>
+                        <!-- Título -->
+                        <div class="text-center mb-3">
+                            <h1>Log In</h1>
+                        </div>
+                        
+                        <!-- Formulario -->
+                        <div>
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Usuario o Email</label>
+                                    <input type="email" class="form-control" placeholder="ejemplo@email.com">
+                                </div>
+        
+                                <div class="mb-3">
+                                    <label class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control">
+                                </div>
+    
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label">Recordarme</label>
+                                </div>
+        
+                                <input class="btn btn-dark col-12" type="submit" value="Enviar">
+        
+                                <hr>
+        
+                                <h3 class="text-center">Ingresar con</h3>
+                                
+                                <!-- Botones -->
+                                <div class="col-12 row ms-0">
+                                    <button class="col-12 col-lg-4 btn btn-outline-dark botones-login"><i class="bi bi-google me-3"></i>Google</button>
+                                    <button class="col-12 col-lg-4 btn btn-outline-dark botones-login"><i class="bi bi-facebook me-3"></i>Facebook</button>
+                                    <button class="col-12 col-lg-4 btn btn-outline-dark botones-login"><i class="bi bi-apple me-3"></i>Apple</button>
+                                </div>
+        
+                                <hr>
 
+                                <p class="text-center">No tenes cuenta? Registrate acá</p>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

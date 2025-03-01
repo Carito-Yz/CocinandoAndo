@@ -85,4 +85,10 @@ main section{
     .img-testimonios{
         width: 40%;
     }
+
+@media (max-width: 992px){
+    .botones-login{
+        margin-bottom: 5px;
+    }
+}
 }
