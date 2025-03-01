@@ -1,20 +1,57 @@
 /* ----------------------------------- HEADER ------------------------------------------------*/
 header i, span{
-    color: black;
+    color: #D8C7A1;
 }
 
 header a{
     text-decoration: none;
 }
 
-/* ----------------------------------- MAIN ------------------------------------------------*/
+nav{
+    background-color: #303030;
+}
 
+nav img{
+    background-color: #FFFFFF;
+    border-radius: 30%;
+}
+
+nav .nav-link{
+    color: #D8C7A1;
+}
+
+nav li :hover{
+    background-color: #D4AF37;
+}
+
+nav .btn {
+    --bs-btn-bg: #D8C7A1;
+    --bs-btn-hover-bg: #D4AF37;}
+/* ----------------------------------- MAIN ------------------------------------------------*/
 main{
-    padding-top: 65px;
+    padding-top: 60px;
 }
 
 main section{
     height: fit-content;
+}
+
+section{
+    background-color: #F2E6D6;
+}
+
+section .btn{
+    --bs-btn-bg: #3E2723;
+    --bs-btn-color: #ffffff;
+    --bs-btn-hover-bg: #3e27239d;
+}
+
+section hr{
+    color: black;
+}
+
+section h1, section h2, section h3{
+    color: #3E2723;
 }
 
 .img-seccion{
@@ -45,6 +82,34 @@ main section{
 .seccion-contenido{
     text-align: end;
 } 
+
+/* ----------------------------------- FOOTER ------------------------------------------------*/
+footer{
+    background-color: #303030;
+}
+
+footer img{
+    background-color: #FFFFFF;
+    border-radius: 30%;
+}
+
+footer .nav-link, footer p, footer i, footer hr{
+    color: #D8C7A1;
+}
+
+footer .nav-item :hover{
+    background-color: #D4AF37;
+}
+
+form .botones-login{
+    background-color: #FFFFFF;
+    color: #3E2723;
+    border-color: #3E2723;
+}
+
+form .botones-login i{
+    color: #3E2723;
+}
 
 /* ----------------------------------- RESPONSIVE ------------------------------------------------*/
 
@@ -85,10 +150,10 @@ main section{
     .img-testimonios{
         width: 40%;
     }
+}
 
 @media (max-width: 992px){
     .botones-login{
         margin-bottom: 5px;
     }
-}
 }
