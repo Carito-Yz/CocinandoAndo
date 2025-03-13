@@ -1,1 +1,38 @@
 @import 'variables';
+
+footer{
+    background-color: $terciary-color;
+
+        img{
+            background-color: $secondary-color;
+            border-radius: 30%;
+        }
+
+        .nav-link{
+            color: $details-color;
+
+            &:hover{
+                background-color: $hover-effect-color;
+                color: $shadow-color;
+            }
+        }
+
+        p, i, hr{
+            color: $details-color;
+        }
+        
+}
+
+//Responsive
+@media (max-width: 770px){
+    .pie{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+
+            img{
+                width: 60px;
+                height: 54px;
+            }
+    }
+}

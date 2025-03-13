@@ -1,1 +1,60 @@
+nav {
+  background-color: #303030;
+}
+nav img {
+  background-color: #FFFFFF;
+  border-radius: 30%;
+}
+nav a {
+  text-decoration: none;
+}
+nav i, nav span, nav .nav-link {
+  color: #D8C7A1;
+}
+nav li :hover {
+  background-color: #D4AF37;
+}
+nav .btn {
+  background-color: #D8C7A1;
+}
+nav .btn:hover {
+  background-color: #D4AF37;
+}
+nav .navbar-toggler {
+  background-color: white;
+}
+
+footer {
+  background-color: #303030;
+}
+footer img {
+  background-color: #FFFFFF;
+  border-radius: 30%;
+}
+footer .nav-link {
+  color: #D8C7A1;
+}
+footer .nav-link:hover {
+  background-color: #D4AF37;
+  color: black;
+}
+footer p, footer i, footer hr {
+  color: #D8C7A1;
+}
+
+@media (max-width: 770px) {
+  .pie {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .pie img {
+    width: 60px;
+    height: 54px;
+  }
+}
+body {
+  background-color: aliceblue;
+}
+
 /*# sourceMappingURL=style.css.map */

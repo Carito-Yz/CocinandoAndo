@@ -1,2 +1,34 @@
 @import 'variables';
 
+nav{
+    background-color: $terciary-color;
+
+        img{
+            background-color: $secondary-color;
+            border-radius: 30%;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        i,span, .nav-link{
+            color: $details-color;
+        }
+
+        li :hover{
+            background-color: $hover-effect-color;
+        }
+
+        .btn{
+            background-color: $details-color;
+
+            &:hover{
+                background-color: $hover-effect-color;
+            }
+        }
+
+        .navbar-toggler{
+            background-color: white;
+        }
+}
