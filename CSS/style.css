@@ -24,6 +24,71 @@ nav .navbar-toggler {
   background-color: white;
 }
 
+main {
+  padding-top: 60px;
+}
+main section {
+  background-color: #F2E6D6;
+}
+main section .btn {
+  background-color: #3E2723;
+  color: #FFFFFF;
+}
+main section .btn:hover {
+  background-color: rgba(62, 39, 35, 0.6156862745);
+}
+main section hr {
+  color: black;
+}
+main section h1, main section h2, main section h3 {
+  color: #3E2723;
+}
+main section .img-seccion {
+  width: 70%;
+  height: auto;
+}
+main section .tarjeta-img {
+  height: 35%;
+}
+main section .cuerpo-tarjeta {
+  text-align: center;
+}
+main section .cuerpo-tarjeta h5 {
+  height: 20%;
+}
+main section .cuerpo-tarjeta p {
+  height: 55%;
+}
+main section .cuerpo-tarjeta button {
+  height: 15%;
+}
+main section .seccion-contenido {
+  text-align: end;
+}
+
+@media (max-width: 770px) {
+  .texto-seccion {
+    text-align: center;
+  }
+  .tarjeta {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 770px) and (max-width: 995px) {
+  .tarjeta {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 850px) {
+  .img-testimonios {
+    width: 40%;
+  }
+}
+@media (max-width: 992px) {
+  .botones-login {
+    margin-bottom: 5px;
+  }
+}
 footer {
   background-color: #303030;
 }
@@ -52,9 +117,6 @@ footer p, footer i, footer hr {
     width: 60px;
     height: 54px;
   }
-}
-body {
-  background-color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */

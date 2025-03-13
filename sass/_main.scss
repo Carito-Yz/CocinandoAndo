@@ -1,1 +1,89 @@
 @import 'variables';
+
+@mixin boton($color-fondo, $color-letra, $color-hover){
+    background-color: $color-fondo;
+    color: $color-letra;
+    &:hover{
+        background-color: $color-hover;
+    }
+}
+
+main{
+    padding-top: 60px;
+
+        section{
+            background-color: $primary-color;
+
+                .btn{
+                    @include boton($content-color, $secondary-color, $hover-buttons-content-color)
+                }
+
+                hr{
+                    color: $shadow-color;
+                }
+
+                h1,h2,h3{
+                    color: $content-color;
+                }
+
+                .img-seccion{
+                    width: 70%; 
+                    height: auto;
+                }
+                
+                .tarjeta-img{
+                    height: 35%;
+                }
+                
+                .cuerpo-tarjeta{
+                    text-align: center;
+
+                        h5{
+                            height: 20%;
+                        }
+
+                        p{
+                            height: 55%;
+                        }
+
+                        button{
+                            height: 15%;
+                        }
+                }
+
+                .seccion-contenido{
+                    text-align: end;
+                }
+        }
+}
+
+//Responsive
+
+@media (max-width: 770px){
+    .texto-seccion{
+        text-align: center;
+    }
+
+    .tarjeta{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 995px) {
+
+    .tarjeta{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 850px){
+    .img-testimonios{
+        width: 40%;
+    }
+}
+
+@media (max-width: 992px){
+    .botones-login{
+        margin-bottom: 5px;
+    }
+}
