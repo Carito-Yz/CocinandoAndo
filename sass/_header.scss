@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixin';
 
 nav{
     background-color: $terciary-color;
@@ -21,11 +22,7 @@ nav{
         }
 
         .btn{
-            background-color: $details-color;
-
-            &:hover{
-                background-color: $hover-effect-color;
-            }
+            @include boton($details-color, $secondary-color, $hover-effect-color);
         }
 
         .navbar-toggler{

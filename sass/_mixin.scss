@@ -1,0 +1,7 @@
+@mixin boton($color-fondo, $color-letra, $color-hover){
+    background-color: $color-fondo;
+    color: $color-letra;
+    &:hover{
+        background-color: $color-hover;
+    }
+}
