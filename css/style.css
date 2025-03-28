@@ -16,6 +16,7 @@ nav li :hover {
 }
 nav .btn {
   background-color: #D8C7A1;
+  color: #FFFFFF;
 }
 nav .btn:hover {
   background-color: #D4AF37;
@@ -100,6 +101,9 @@ main section .seccion-contenido {
 
 @media (max-width: 770px) {
   .texto-seccion {
+    text-align: center;
+  }
+  main section .seccion-contenido {
     text-align: center;
   }
   .tarjeta {
